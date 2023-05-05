@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero, .footer {
+    padding: 16px 220px;
+    margin: 0;
+}
+
+.header, .footer {
+    font-size: 18px;
+    color: lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.tesla-logo {
+    width: 100px;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    align-items: baseline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero-text {
+    display: flex;
+    color: white;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.model-3-img {
+    width: 200px;
+    height: auto;
+}
+
+.footer {
+    justify-content: center;
+    color: white;
+    background-color: #1F2937;
+}
